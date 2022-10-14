@@ -1,12 +1,12 @@
 .header{
 	display: flex;
 	justify-content: space-between;
-	padding: 20px;
+	padding: 5px;
 	background: #808080;
 	color: black;
 	align-items: center;
-	font-family: "Gagalin-Regular";
-	border-radius: 0px;
+	font-family: "GUERRILLA-Normal";
+	
 
 }
 .hd_section{
@@ -15,10 +15,9 @@
 	
 }
 .hd_text{
-	margin-left: 50px;
+	margin-left: 20px;
 	font-size: 60px;
-	font-white: bolder;
-	font-style: oblique;
+	letter-spacing: -1px;
 
 }
 a{
@@ -30,39 +29,41 @@ a{
 	font-size: 25px;
 	padding: 10px 10px;
 	margin-left: 6px;
-	font-style: white;
+	font-style: black;
 }
 .bt_position{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 .hd_bt:hover{
-	background-color:#F4A460;
+	background-color:#DCDCDC;
+	font-style: black;
+	color: black;
 	border-radius: 4px;
 }
 .hd_bt:focus{
 	color: red;
 }
 .hd_bt:active{
-	background-color: #FF0000;
+	background-color: #000000;
 	border: 3px;
 	border-radius: 4px;
 	border-color: #808000;
 }
 .about{
+
 	display: flex;
-	/*align-items: ;*/
 	justify-content: flex-start;
 	padding: 25px;
 	
 }
 h2{
-	font-family: "Gagalin-Regular"; 
+	font-family: "CinzelDecorative-Black"; 
 	font-size: 28px;
 }
 li ,p {
     list-style-type: none; /* Убираем маркеры у списка */
-    font-family: "Gagalin-Regular";
+    font-family: "CinzelDecorative-Black";
     font-size: 20px;
     
    }
@@ -70,6 +71,7 @@ li ,p {
     content: "- "; /* Добавляем в качестве маркера символ */
 }
 body{
+	margin: 0px;
 	background-color:#DCDCDC;
 }
 .map{
@@ -92,10 +94,10 @@ footer{
 	background-color: #808080;
 }
 article h2{
-	margin-left: 50px;
+	margin-left: 17%;
 }
 article li{
-	margin-left: 50px;
+	margin-left: 20%;
 	line-height: 50px;
 }
 div p{
@@ -113,3 +115,22 @@ src: url("Gagalin-Regular.otf") format("truetype");
 font-style: normal; 
 font-weight: normal; 
 } 	
+@font-face {
+
+font-family: "GUERRILLA-Normal"; 
+
+src: url("GUERRILLA-Normal.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 	
+@font-face {
+
+font-family: "CinzelDecorative-Black"; 
+
+src: url("CinzelDecorative-Black") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 	
+
+
+
